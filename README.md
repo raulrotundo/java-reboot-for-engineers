@@ -18,6 +18,7 @@ This repository is designed for experienced software engineers who want to:
 
 ## 🧱 Project Structure
 
+```folder
 java-reboot-for-engineers/
 ├── src/
 │ ├── fundamentals/ # Java basics: types, OOP, exceptions
@@ -31,6 +32,7 @@ java-reboot-for-engineers/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+```
 
 ---
 
