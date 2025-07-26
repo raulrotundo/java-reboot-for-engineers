@@ -22,6 +22,10 @@ import java.util.concurrent.*;
 // - Always shut down ExecutorService to avoid resource leaks.
 // - CompletableFuture enables non-blocking, event-driven programming.
 public class ConcurrencyDemo {
+    public static void main(String[] args) {
+        run();
+    }
+
     public static void run() {
         System.out.println("== Concurrency Demo ==");
 

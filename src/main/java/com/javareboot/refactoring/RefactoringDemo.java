@@ -14,6 +14,10 @@ package com.javareboot.refactoring;
 // - SOLID principles help you write code that is easier to maintain, test, and extend.
 // - Code smells are warning signs that code may need refactoring (e.g., long methods, duplicated code).
 public class RefactoringDemo {
+    public static void main(String[] args) {
+        run();
+    }
+
     public static void run() {
         System.out.println("== Refactoring Demo ==");
 

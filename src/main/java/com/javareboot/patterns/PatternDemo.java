@@ -13,6 +13,10 @@ package com.javareboot.patterns;
 // - Adapter: Bridges incompatible interfaces, aiding integration.
 // - Command: Encapsulates actions as objects, supporting undo/redo and queuing.
 public class PatternDemo {
+    public static void main(String[] args) {
+        run();
+    }
+
     public static void run() {
         System.out.println("== Patterns Demo ==");
 

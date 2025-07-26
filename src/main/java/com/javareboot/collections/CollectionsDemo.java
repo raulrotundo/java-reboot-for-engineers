@@ -15,6 +15,10 @@ import java.util.stream.Collectors;
 // - Generics allow you to specify the type of elements, preventing runtime type errors.
 // - Streams provide a declarative way to process data, supporting operations like filter, map, and reduce.
 public class CollectionsDemo {
+    public static void main(String[] args) {
+        run();
+    }
+
     public static void run() {
         System.out.println("== Collections Demo ==");
 
