@@ -42,11 +42,11 @@ public class CollectionsDemo {
 
         // Stream API: enables declarative, functional-style processing of collections.
         // filter: selects elements matching a condition.
-        // collect: gathers results into a new collection.
+        // toList: gathers results into a new list
         // Theory: Streams allow you to chain operations and process data in a concise, readable way.
         List<String> filtered = names.stream()
                 .filter(n -> n.startsWith("A")) // Lambda expression for filtering
-                .collect(Collectors.toList());
+                .toList();
         System.out.println("Names starting with 'A': " + filtered);
     }
 }
