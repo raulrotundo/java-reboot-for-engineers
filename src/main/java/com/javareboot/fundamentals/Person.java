@@ -8,13 +8,19 @@ package com.javareboot.fundamentals;
 // - Constructors are special methods used to initialize new objects.
 // - Methods define the behavior of objects.
 // - Setters can enforce rules, such as not allowing negative ages.
+//
+// About 'final':
+// - The 'final' keyword means the variable can only be assigned once.
+// - For fields, 'final' ensures immutability for that field after construction.
+// - Use 'final' when you want to guarantee that the value will not change after initialization.
+// - This is especially useful for fields that should be constant for the lifetime of the object (e.g., a person's name).
 public class Person {
-    private String name; // Fields store object state
+    private final String name; // 'final' means name cannot be changed after construction
     private int age;
 
     // Constructor: special method to initialize new objects
     public Person(String name, int age) {
-        this.name = name;
+        this.name = name; // 'name' must be assigned here and cannot be changed later
         setAge(age); // Using setter for validation
     }
 
