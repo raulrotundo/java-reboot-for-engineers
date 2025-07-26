@@ -48,5 +48,23 @@ public class CollectionsDemo {
                 .filter(n -> n.startsWith("A")) // Lambda expression for filtering
                 .toList();
         System.out.println("Names starting with 'A': " + filtered);
+
+        // HashMap example:
+        // HashMap is a Map implementation that stores key-value pairs and allows fast lookup by key.
+        // Use HashMap when you need to associate unique keys with values and retrieve values efficiently by key.
+        // ArrayList is best for ordered lists and fast access by index, but not for key-based lookup.
+        // Example: storing employee IDs and their names.
+        Map<Integer, String> employeeMap = new HashMap<>();
+        employeeMap.put(101, "Alice");
+        employeeMap.put(102, "Bob");
+        employeeMap.put(103, "Charlie");
+
+        System.out.println("Employee Map: " + employeeMap);
+        System.out.println("Employee with ID 102: " + employeeMap.get(102));
+
+        // Theory:
+        // - Use ArrayList when you need ordered, index-based access and allow duplicates.
+        // - Use HashMap when you need to associate keys with values and require fast retrieval by key.
+        // - HashMap does not guarantee order; ArrayList does.
     }
 }
