@@ -21,7 +21,7 @@ This repository is designed for experienced software engineers who want to:
 ```folder
 java-reboot-for-engineers/
 ├── src/
-│ ├── fundamentals/ # Java basics: types, OOP, exceptions
+│ ├── fundamentals/ # Java basics: types, OOP, exceptions, immutability
 │ ├── collections/ # Lists, Maps, Sets, Streams
 │ ├── concurrency/ # Threads, Executors, Futures
 │ ├── patterns/ # Design patterns in context
@@ -40,7 +40,7 @@ java-reboot-for-engineers/
 
 | Module           | Topics                                                                 |
 |------------------|------------------------------------------------------------------------|
-| Fundamentals     | Java 17+ syntax, classes, interfaces, exception handling               |
+| Fundamentals     | Java 17+ syntax, classes, interfaces, exception handling, immutability |
 | Collections      | List, Set, Map, Stream API, lambda expressions                         |
 | Concurrency      | Threads, ExecutorService, CompletableFuture, synchronization           |
 | Design Patterns  | Factory, Strategy, Singleton, Builder, Observer, Adapter, Command      |
@@ -102,4 +102,3 @@ All learning notes, design considerations, and observations are captured in docs
 ## 🧠 Guiding Principles
 “Write code for humans first, machines second.”
 This project focuses on clarity, maintainability, and relevance over clever hacks or algorithmic tricks.
-
